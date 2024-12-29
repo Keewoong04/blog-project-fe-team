@@ -4,16 +4,16 @@ export default function ArticleBox()
 {
     return(
         <div id='ArticleBox'>
-            <div id='EmptyBox'>
-            </div>
-            <h4>NICKNAME</h4>
+            <div id='EmptyBox'></div>
+            <h4
+            style={{
+                position: "absolute",
+                right: "40px",
+                top: "40px",
+            }}>NICKNAME</h4>
             <div>2024.XX.XX</div>
-            <h1 id = "Title">
-                Title
-            </h1>
-            <h3>
-                contents
-            </h3>
+            <h1 id = "Title">Title</h1>
+            <h3>contents</h3>
             <div>likes & comments</div>
         </div>        
     )
